@@ -69,7 +69,7 @@ const Banner = () => {
             <div className="flex-1 flex justify-center mx-auto   ">
                 <div>
                     <Lottie loop={true} className=" w-[450px]   md:w-[600px] relative" animationData={animation}></Lottie>
-                    <img className=" rounded-full h-[300px] w-[260px] md:h-[400px] md:w-[350px] top-[570px] right-20 absolute md:top-52 md:right-48" src={img} alt="" />
+                    <img className=" rounded-full h-[300px] w-[260px] md:h-[400px] md:w-[350px] top-[570px] right-24 absolute md:top-52 md:right-60" src={img} alt="" />
 
                 </div>
             </div>
