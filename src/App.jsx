@@ -11,7 +11,7 @@ import ContactForm from './contact/ContactForm'
 
 function App() {
   return (
-    <div >
+    <div className='bg-[#212428]' >
       <Navbar1></Navbar1>
       <Banner></Banner>
       <Services></Services>

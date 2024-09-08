@@ -1,14 +1,60 @@
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 
 
 const Skills = () => {
     return (
-        <div className="pt-20 px-4 bg-black">
-            <div className="bg-black pt-14">
-                <p className="text-center font-extrabold text-4xl text-white">---- MY SKILLS ----</p>
+        <div className="my-32">
+            <div className="">
+                <p className="text-center  text-5xl text-[#dedbdb] poppins-bold tracking-wider">MY SKILLS</p>
             </div>
 
-            <Marquee className=" ">
+
+            <div className="max-w-7xl  m-auto mt-10">
+
+
+                <div className="space-y-3">
+
+                    <div>
+                        <p className="text-xs text-[white]">ddd</p>
+                        <div className="w-96 bg-[#ffffff] rounded-full border-1 border-[black]">
+                            <div className="bg-[#d92c2c] text-[10px] font-medium text-blue-100 text-center p-0 leading-none rounded-full w-[95%]">
+                                95%
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p className="text-xs text-[white]">ddd</p>
+                        <div className="w-96 bg-gray-200 rounded-full">
+                            <div className="bg-[#d92c2c] text-[10px] font-medium text-blue-100 text-center p-0 leading-none rounded-full w-[95%]">
+                                95%
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p className="text-xs text-[white]">ddd</p>
+                        <div className="w-96 bg-gray-200 rounded-full">
+                            <div className="bg-[#d92c2c] text-[10px] font-medium text-blue-100 text-center p-0 leading-none rounded-full w-[95%]">
+                                95%
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p className="text-xs text-[white]">ddd</p>
+                        <div className="w-96 bg-gray-200 rounded-full">
+                            <div className="bg-[#d92c2c] text-[10px] font-medium text-blue-100 text-center p-0 leading-none rounded-full w-[95%]">
+                                95%
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            {/* <Marquee className=" ">
                 <div className="grid grid-cols-3 max-w-7xl gap-6 md:gap-44 mx-auto pt-16 md:grid-cols-6">
 
 
@@ -65,7 +111,7 @@ const Skills = () => {
 
 
                 </div>
-            </Marquee>
+            </Marquee> */}
 
         </div>
     );
