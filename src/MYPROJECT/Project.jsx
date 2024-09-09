@@ -1,12 +1,23 @@
-import { TiHtml5 } from "react-icons/ti";
-import { IoLogoCss3 } from "react-icons/io5";
-import { TbBrandJavascript } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa";
 import img from "../../src/assets/Screenshot_13.png"
 import img1 from "../../src/assets/Screenshot_14.png"
+import { AiFillFacebook } from "react-icons/ai";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io";
+import { FaHtml5 } from "react-icons/fa";
+import { TbFileTypeCss } from "react-icons/tb";
+import { IoLogoJavascript } from "react-icons/io5";
+import { BiLogoTailwindCss } from "react-icons/bi";
+import { BiLogoFirebase } from "react-icons/bi";
+import { SiMongodb } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiMui } from "react-icons/si";
+import { FaCcStripe } from "react-icons/fa6";
 
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css';
+
 AOS.init();
 
 AOS.init({
@@ -35,88 +46,217 @@ AOS.init({
 
 const Project = () => {
     return (
-        <div className="bg-black pt-20 pb-5 ">
-            <div>
-                <p className="text-center text-red-700 text-5xl font-bold p-4" >MY PROJECT</p>
+        <div className="bg-[#212428] my-32">
+            <div className="py-10">
+                <p className="text-center  text-5xl text-[#dedbdb] poppins-bold tracking-wider">MY PROJECT</p>
             </div>
             <div className="grid gap-8 grid-cols-1  md:grid-cols-2 lg:grid-cols-3 pt-12 max-w-7xl mx-auto">
 
                 <div
-
                     data-aos="flip-right"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="10000"
+                >
+                    <div
+                        className="justify-center rounded-md btn-class mx-7 px-6 py-8 group">
+                        <div>
+                            <div className="group relative overflow-hidden rounded-md ">
+                                <img
+                                    className="group-hover:scale-110 transition-transform duration-1000 ease-in-out h-40 "
+                                    src={img}
+                                    alt="product image"
+                                />
+                            </div>
+                            <div className="pt-7">
+                                <div className='flex gap-3 items-center'>
+                                    <h5 className=" text-lg -tracking-wider text-[#d43030] poppins-bold">MATRIMONY SERVICES -</h5>
+                                    <FaGithub color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                    <FaExternalLinkAlt color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                </div>
 
-
-                    className="  flex justify-center rounded-xl   ">
-                    <div className=" w-[400px] px-3 bg-slate-950 rounded-lg shadow-2xl shadow-slate-400 group ">
-                        <img className="p-8  rounded-2xl group-hover:scale-110 transition " src={img} alt="product image" />
-                        <div className="px-5 pb-5">
-                            <h5 className="text-2xl tracking-tight text-slate-100 font-extrabold ">MATRIMONY SERVICES</h5>
-                            <div>
-                                <p className='text-white pt-2'>Technology :</p>
-                                <div className="flex gap-2 pt-2">
-                                    <TiHtml5 color="#f55142" size={40} className="shadow-lg shadow-orange-500 p-1 border"></TiHtml5>
-                                    <IoLogoCss3 color="#4269f5" size={40} className="shadow-lg shadow-blue-600 p-1 border"></IoLogoCss3>
-                                    <TbBrandJavascript color="#f5e642" size={40} className="shadow-lg shadow-amber-400 p-1 border"></TbBrandJavascript>
+                                <div className='pt-5'>
+                                    <p className="text-[#cbc5c5] font-bold text-xs uppercase">Technology :</p>
+                                    <div className="grid grid-cols-3 items-center gap-3 pt-4">
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <FaHtml5 color="white" size={11} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">HTML</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <TbFileTypeCss color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">CSS</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <IoLogoJavascript color="white" size={11} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">JavaScript</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <FaReact color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">React</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <BiLogoTailwindCss color="white" size={13} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">Tailwind</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <BiLogoFirebase color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">Firebase</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <SiMongodb color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">MongoDb</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <SiMui color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">MaterialUI</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <FaCcStripe color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">Stripe</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
 
                 <div
                     data-aos="zoom-out-up"
                     data-aos-duration="10000"
+                >
+                    <div
+                        className="justify-center rounded-md btn-class mx-7 px-6 py-8 group">
+                        <div>
+                            <div className="group relative overflow-hidden rounded-md ">
+                                <img
+                                    className="group-hover:scale-110 transition-transform duration-1000 ease-in-out h-40 "
+                                    src={img1}
+                                    alt="product image"
+                                />
+                            </div>
+                            <div className="pt-7">
+                                <div className='flex gap-3 items-center'>
+                                    <h5 className=" text-lg -tracking-wider text-[#d43030] poppins-bold">MATRIMONY SERVICES -</h5>
+                                    <FaGithub color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                    <FaExternalLinkAlt color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                </div>
 
-                    className="  flex justify-center rounded-xl   ">
-                    <div className=" w-[400px] px-3 bg-slate-950 rounded-lg shadow-2xl shadow-slate-400 group ">
-                        <img className="p-8  rounded-2xl group-hover:scale-110 transition " src={img1} alt="product image" />
-                        <div className="px-5 pb-5">
-                            <h5 className="text-2xl tracking-tight text-slate-100 font-extrabold ">BRAND SHOP</h5>
-                            <div>
-                                <p className='text-white pt-2'>Technology</p>
-                                <div className="flex gap-2 pt-2">
-                                    <TiHtml5 color="#f55142" size={40} className="shadow-lg shadow-orange-500 p-1 border"></TiHtml5>
-                                    <IoLogoCss3 color="#4269f5" size={40} className="shadow-lg shadow-blue-600 p-1 border"></IoLogoCss3>
-                                    <TbBrandJavascript color="#f5e642" size={40} className="shadow-lg shadow-amber-400 p-1 border"></TbBrandJavascript>
+                                <div className='pt-5'>
+                                    <p className="text-[#cbc5c5] font-bold text-xs uppercase">Technology :</p>
+                                    <div className="grid grid-cols-3 items-center gap-3 pt-4">
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <FaHtml5 color="white" size={11} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">HTML</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <TbFileTypeCss color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">CSS</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <IoLogoJavascript color="white" size={11} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">JavaScript</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <FaReact color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">React</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <BiLogoTailwindCss color="white" size={13} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">Tailwind</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <BiLogoFirebase color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">Firebase</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <SiMongodb color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">MongoDb</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <SiMui color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">MaterialUI</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <FaCcStripe color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">Stripe</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-
-
                 <div
-
                     data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="10000"
+                >
+                    <div
+                        className="justify-center rounded-md btn-class mx-7 px-6 py-8 group">
+                        <div>
+                            <div className="group relative overflow-hidden rounded-md ">
+                                <img
+                                    className="group-hover:scale-110 transition-transform duration-1000 ease-in-out h-40 "
+                                    src={img}
+                                    alt="product image"
+                                />
+                            </div>
+                            <div className="pt-7">
+                                <div className='flex gap-3 items-center'>
+                                    <h5 className=" text-lg -tracking-wider text-[#d43030] poppins-bold">MATRIMONY SERVICES -</h5>
+                                    <FaGithub color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                    <FaExternalLinkAlt color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                </div>
 
-                    className="  flex justify-center rounded-xl   ">
-                    <div className=" w-[400px] px-3 bg-slate-950 rounded-lg shadow-2xl shadow-slate-400 group ">
-                        <img className="p-8  rounded-2xl group-hover:scale-110 transition " src={img} alt="product image" />
-                        <div className="px-5 pb-5">
-                            <h5 className="text-2xl tracking-tight text-slate-100 font-extrabold ">FOOD DONATION</h5>
-                            <div>
-                                <p className='text-white pt-2'>Technology</p>
-                                <div className="flex gap-2 pt-2">
-                                    <TiHtml5 color="#f55142" size={40} className="shadow-lg shadow-orange-500 p-1 border"></TiHtml5>
-                                    <IoLogoCss3 color="#4269f5" size={40} className="shadow-lg shadow-blue-600 p-1 border"></IoLogoCss3>
-                                    <TbBrandJavascript color="#f5e642" size={40} className="shadow-lg shadow-amber-400 p-1 border"></TbBrandJavascript>
+                                <div className='pt-5'>
+                                    <p className="text-[#cbc5c5] font-bold text-xs uppercase">Technology :</p>
+                                    <div className="grid grid-cols-3 items-center gap-3 pt-4">
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <FaHtml5 color="white" size={11} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">HTML</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <TbFileTypeCss color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">CSS</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <IoLogoJavascript color="white" size={11} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">JavaScript</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <FaReact color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">React</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <BiLogoTailwindCss color="white" size={13} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">Tailwind</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <BiLogoFirebase color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">Firebase</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <SiMongodb color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">MongoDb</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <SiMui color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">MaterialUI</p>
+                                        </div>
+                                        <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
+                                            <FaCcStripe color="white" size={12} className="  " />
+                                            <p className="text-[white] text-[10px] tracking-wider">Stripe</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-
-
             </div>
-
-
         </div>
     );
 };

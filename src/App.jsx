@@ -1,5 +1,6 @@
 
 import Banner from './Banner/Banner'
+import Education from './Education/Education'
 import Footer from './Footer/Footer'
 import Project from './MYPROJECT/Project'
 import Navbar1 from './Navbar/Navbar1'
@@ -17,6 +18,7 @@ function App() {
       <Services></Services>
       <Skills></Skills>
       <Project></Project>
+      <Education></Education>
       <ContactForm> </ContactForm>
       <Footer></Footer>
     </div>

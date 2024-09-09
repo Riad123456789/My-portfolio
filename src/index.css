@@ -1,27 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pontano+Sans:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pontano+Sans:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 .btn-class {
-    box-shadow: 10px 10px 19px rgb(28, 30, 34), -10px -10px 19px rgb(38, 42, 46);
-    background: linear-gradient(145deg, rgb(30, 32, 36), rgb(35, 39, 43));
+  box-shadow: 10px 10px 19px rgb(28, 30, 34), -10px -10px 19px rgb(38, 42, 46);
+  background: linear-gradient(145deg, rgb(30, 32, 36), rgb(35, 39, 43));
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+ .progress {
+  height: 13px;
+  overflow: visible;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 3px;
+  background: #212428;
+  box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.4588235294), inset -8px -8px 16px rgba(47, 58, 71, 0.459);
+}
+
+.progress-charts  {
+  border-radius: 14px;
+  background: #f02981;
+  background: linear-gradient(145deg, #972b32 0%, #b1200d 100%);
 }
 
 
-.poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
 
-  
-  .montserrat-uniquifier {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-  
-  }
+
