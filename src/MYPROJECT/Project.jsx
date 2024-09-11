@@ -46,11 +46,13 @@ AOS.init({
 
 const Project = () => {
     return (
-        <div className="bg-[#212428] my-32">
-            <div className="py-10">
-                <p className="text-center  text-5xl text-[#dedbdb] poppins-bold tracking-wider">MY PROJECT</p>
+        <div className="bg-[#212428] my-20 md:my-32 max-w-7xl mx-auto">
+            <div className="pt-6 md:py-10">
+                <p className="text-center text-2xl  md:text-5xl text-[#dedbdb] poppins-bold tracking-wider">MY PROJECT</p>
             </div>
-            <div className="grid gap-8 grid-cols-1  md:grid-cols-2 lg:grid-cols-3 pt-12 max-w-7xl mx-auto">
+
+
+            <div className="grid gap-12 md:gap-8 lg:gap-0 xl:gap-8 grid-cols-1  md:grid-cols-2 lg:grid-cols-3 pt-16 md:pt-12 md:mx-4">
 
                 <div
                     data-aos="flip-right"
@@ -68,50 +70,52 @@ const Project = () => {
                                 />
                             </div>
                             <div className="pt-7">
-                                <div className='flex gap-3 items-center'>
-                                    <h5 className=" text-lg -tracking-wider text-[#d43030] poppins-bold">MATRIMONY SERVICES -</h5>
-                                    <FaGithub color="white" size={30} className="btn-class cursor-pointer p-2" />
-                                    <FaExternalLinkAlt color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                <div className='flex justify-between items-center'>
+                                    <h5 className="text-base lg:text-[11px] xl:text-base -tracking-wider text-[#d43030] poppins-bold">MATRIMONY SERVICES -</h5>
+                                    <div className="flex items-center gap-2">
+                                        <FaGithub color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                        <FaExternalLinkAlt color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                    </div>
                                 </div>
 
                                 <div className='pt-5'>
-                                    <p className="text-[#cbc5c5] font-bold text-xs uppercase">Technology :</p>
+                                    <p className="text-[#cbc5c5] font-bold text-[10px] md:text-xs lg:text-[9px] xl:text-xs tracking-wider uppercase">Technology :</p>
                                     <div className="grid grid-cols-3 items-center gap-3 pt-4">
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <FaHtml5 color="white" size={11} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">HTML</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px] tracking-wider">HTML</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <TbFileTypeCss color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">CSS</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px] tracking-wider">CSS</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <IoLogoJavascript color="white" size={11} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">JavaScript</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px] tracking-wider">JavaScript</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <FaReact color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">React</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px] tracking-wider">React</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <BiLogoTailwindCss color="white" size={13} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">Tailwind</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px] tracking-wider">Tailwind</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <BiLogoFirebase color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">Firebase</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px] tracking-wider">Firebase</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <SiMongodb color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">MongoDb</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px] tracking-wider">MongoDb</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <SiMui color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">MaterialUI</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px] tracking-wider">MaterialUI</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <FaCcStripe color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">Stripe</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px] tracking-wider">Stripe</p>
                                         </div>
                                     </div>
                                 </div>
@@ -136,50 +140,51 @@ const Project = () => {
                                 />
                             </div>
                             <div className="pt-7">
-                                <div className='flex gap-3 items-center'>
-                                    <h5 className=" text-lg -tracking-wider text-[#d43030] poppins-bold">MATRIMONY SERVICES -</h5>
-                                    <FaGithub color="white" size={30} className="btn-class cursor-pointer p-2" />
-                                    <FaExternalLinkAlt color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                <div className='flex justify-between items-center'>
+                                    <h5 className="text-base lg:text-[11px] xl:text-base -tracking-wider text-[#d43030] poppins-bold">MATRIMONY SERVICES -</h5>
+                                    <div className="flex items-center gap-2">
+                                        <FaGithub color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                        <FaExternalLinkAlt color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                    </div>
                                 </div>
-
                                 <div className='pt-5'>
-                                    <p className="text-[#cbc5c5] font-bold text-xs uppercase">Technology :</p>
+                                    <p className="text-[#cbc5c5] font-bold text-[10px] md:text-xs lg:text-[9px] xl:text-xs tracking-wider uppercase">Technology :</p>
                                     <div className="grid grid-cols-3 items-center gap-3 pt-4">
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <FaHtml5 color="white" size={11} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">HTML</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">HTML</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <TbFileTypeCss color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">CSS</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">CSS</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <IoLogoJavascript color="white" size={11} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">JavaScript</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">JavaScript</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <FaReact color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">React</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">React</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <BiLogoTailwindCss color="white" size={13} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">Tailwind</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">Tailwind</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <BiLogoFirebase color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">Firebase</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">Firebase</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <SiMongodb color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">MongoDb</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">MongoDb</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <SiMui color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">MaterialUI</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">MaterialUI</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <FaCcStripe color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">Stripe</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">Stripe</p>
                                         </div>
                                     </div>
                                 </div>
@@ -204,50 +209,52 @@ const Project = () => {
                                 />
                             </div>
                             <div className="pt-7">
-                                <div className='flex gap-3 items-center'>
-                                    <h5 className=" text-lg -tracking-wider text-[#d43030] poppins-bold">MATRIMONY SERVICES -</h5>
-                                    <FaGithub color="white" size={30} className="btn-class cursor-pointer p-2" />
-                                    <FaExternalLinkAlt color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                <div className='flex justify-between items-center'>
+                                    <h5 className="text-base lg:text-[11px] xl:text-base -tracking-wider text-[#d43030] poppins-bold">MATRIMONY SERVICES -</h5>
+                                    <div className="flex items-center gap-2">
+                                        <FaGithub color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                        <FaExternalLinkAlt color="white" size={30} className="btn-class cursor-pointer p-2" />
+                                    </div>
                                 </div>
 
                                 <div className='pt-5'>
-                                    <p className="text-[#cbc5c5] font-bold text-xs uppercase">Technology :</p>
+                                    <p className="text-[#cbc5c5] font-bold text-[10px] md:text-xs lg:text-[9px] xl:text-xs tracking-wider uppercase">Technology :</p>
                                     <div className="grid grid-cols-3 items-center gap-3 pt-4">
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <FaHtml5 color="white" size={11} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">HTML</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">HTML</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <TbFileTypeCss color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">CSS</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">CSS</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <IoLogoJavascript color="white" size={11} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">JavaScript</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">JavaScript</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <FaReact color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">React</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">React</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <BiLogoTailwindCss color="white" size={13} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">Tailwind</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">Tailwind</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <BiLogoFirebase color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">Firebase</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">Firebase</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <SiMongodb color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">MongoDb</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">MongoDb</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <SiMui color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">MaterialUI</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">MaterialUI</p>
                                         </div>
                                         <div className="flex items-center gap-1 btn-class px-3 py-2 cursor-pointer">
                                             <FaCcStripe color="white" size={12} className="  " />
-                                            <p className="text-[white] text-[10px] tracking-wider">Stripe</p>
+                                            <p className="text-[white] text-[8px] md:text-[10px] lg:text-[6px] xl:text-[10px]  tracking-wider">Stripe</p>
                                         </div>
                                     </div>
                                 </div>

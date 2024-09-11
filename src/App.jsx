@@ -12,13 +12,13 @@ import ContactForm from './contact/ContactForm'
 
 function App() {
   return (
-    <div className='bg-[#212428]' >
+    <div className='bg-[#212428] overflow-hidden' >
       <Navbar1></Navbar1>
       <Banner></Banner>
       <Services></Services>
       <Skills></Skills>
       <Project></Project>
-      <Education></Education>
+      {/* <Education></Education> */}
       <ContactForm> </ContactForm>
       <Footer></Footer>
     </div>

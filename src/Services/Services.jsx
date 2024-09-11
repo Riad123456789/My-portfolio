@@ -10,81 +10,100 @@ import img2 from "../../src/assets/https___v4.material-ui.com_static_logo.webp"
 
 const Services = () => {
     return (
-        <div className="my-28">
+        <div className="my-12 xl:mt-28 max-w-7xl mx-auto">
 
-            <div className=" space-y-5">
-                <p className="text-center montserrat-uniquifier text-[#f4395e] text-xs tracking-wide uppercase">
+            <div className=" space-y-2">
+                <p className="text-[7px] text-center montserrat-uniquifier text-[#f4395e] md:text-xs tracking-wide uppercase">
                     These are the technologies i have worked with
                 </p>
-                <p className="text-center  text-5xl text-[#eae6e6] poppins-bold tracking-wider">My Experience</p>
+                <p className="text-center text-3xl  md:text-5xl text-[#eae6e6] poppins-bold tracking-wider">My Experience</p>
             </div>
 
 
 
-            <div className="my-2 px-16 py-10 btn-class max-w-7xl mx-auto mt-14 ">
+            <div className="mx-5 mt-12  px-6 py-6 md:mt-20 md:mx-10  md:my-2 md:px-12 md:py-10 xl:mx-10 rounded-md btn-class ">
 
                 <div>
-                    <p className="text-[#bab4b4] font-bold text-base uppercase pt-2">Primary Skills on :</p>
-                    <div className="h-[2px] max-w-7xl my-5 m-auto bg-[#151515]"></div>
+                    <p className="text-xs text-[#bab4b4] font-bold md:text-base uppercase pt-2">Primary Skills on :</p>
+                    <div className="h-[2px] max-w-7xl my-3 md:my-5 m-auto bg-[#151515]"></div>
 
-                    <div className="flex  pt-4">
-                        <div className="w-24 h-24 mx-auto btn-class  ">
-                            <Lottie className="pt-2 w-20 m-auto" size={10} animationData={html}></Lottie>
+                    <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-5 md:gap-7 pt-4">
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={html}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto btn-class ">
-                            <Lottie className=" w-20 m-auto" animationData={css}></Lottie>
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={css}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <Lottie className="pt-2 w-20 m-auto" animationData={java}></Lottie>
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={java}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <img className="w-16 m-auto pt-7 py-16" src={img} alt="" />
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img} alt="" />
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <Lottie className="pt-2 w-20 m-auto" animationData={react}></Lottie>
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={react}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <Lottie className="pt-4 w-20 m-auto" animationData={firebase}></Lottie>
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={firebase}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <img className="w-16 m-auto rounded-full pt-4 py-7" src={img1} alt="" />
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img1} alt="" />
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <img className="w-16 m-auto rounded-full pt-4 py-7" src={img2} alt="" />
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img2} alt="" />
                         </div>
+
                     </div>
 
                 </div>
 
-                <div className="pt-20 pb-8">
-                    <p className="text-[#bab4b4] font-bold text-base uppercase ">Secondary Skills on :</p>
-                    <div className="h-[2px] max-w-7xl my-5 m-auto bg-[#151515]"></div>
+                <div className="pt-12 pb-4 md:pt-20 md:pb-8">
 
-                    <div className="flex  pt-4">
-                        <div className="w-24 h-24 mx-auto btn-class  ">
-                            <Lottie className="pt-2 w-20 m-auto" size={10} animationData={html}></Lottie>
+                    <p className="text-xs text-[#bab4b4] font-bold md:text-base uppercase pt-2">Secondary Skills on :</p>
+                    <div className="h-[2px] max-w-7xl my-3 md:my-5 m-auto bg-[#151515]"></div>
+
+                    <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-5 md:gap-7 pt-4">
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={html}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto btn-class ">
-                            <Lottie className=" w-20 m-auto" animationData={css}></Lottie>
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={css}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <Lottie className="pt-2 w-20 m-auto" animationData={java}></Lottie>
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={java}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <img className="w-16 m-auto pt-7 py-16" src={img} alt="" />
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img} alt="" />
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <Lottie className="pt-2 w-20 m-auto" animationData={react}></Lottie>
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={react}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <Lottie className="pt-4 w-20 m-auto" animationData={firebase}></Lottie>
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={firebase}></Lottie>
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <img className="w-16 m-auto rounded-full pt-4 py-7" src={img1} alt="" />
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img1} alt="" />
                         </div>
-                        <div className="w-24 h-24 mx-auto  btn-class">
-                            <img className="w-16 m-auto rounded-full pt-4 py-7" src={img2} alt="" />
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img2} alt="" />
                         </div>
+
                     </div>
                 </div>
 

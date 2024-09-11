@@ -2,14 +2,13 @@
 
 const Education = () => {
     return (
-        <div className="my-20  max-w-7xl mx-auto">
+        <div className="my-20  max-w-7xl mx-auto  pb-20">
             <p className="text-center text-5xl text-[#eae6e6] poppins-bold tracking-wider">Education</p>
 
 
             <div className=" mx-9 ">
-                <ul className="timeline flex justify-center items-center -mt-20">
+                <ul className="timeline flex justify-center items-center -mt-28">
                     <li>
-                        <div className="timeline-start text-[red]">1984</div>
                         <div className="timeline-middle">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +32,7 @@ const Education = () => {
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
-                                 color="red"
+                                color="red"
                                 className="h-5 w-5">
                                 <path
                                     fillRule="evenodd"
@@ -41,7 +40,7 @@ const Education = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </div>
-                        <div className="timeline-end btn-class text-[red] px-20 py-20">iMac</div>
+                        <div className="timeline-end btn-class text-[red] w-80 h-56 ml-5 px-6 py-6">iMac</div>
                         <hr />
                     </li>
                     <li>
@@ -52,7 +51,7 @@ const Education = () => {
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
-                                 color="red"
+                                color="red"
                                 className="h-5 w-5">
                                 <path
                                     fillRule="evenodd"
@@ -60,7 +59,7 @@ const Education = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </div>
-                        <div className="timeline-end btn-class text-[red] px-20 py-20">iPod</div>
+                        <div className="timeline-end btn-class text-[red] w-80 h-56 mx-16 px-6 py-6">iPod</div>
                         <hr />
                     </li>
                     <li>
@@ -71,7 +70,7 @@ const Education = () => {
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
-                                 color="red"
+                                color="red"
                                 className="h-5 w-5">
                                 <path
                                     fillRule="evenodd"
@@ -79,7 +78,7 @@ const Education = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </div>
-                        <div className="timeline-end btn-class text-[red] px-20 py-20">iPod</div>
+                        <div className="timeline-end btn-class text-[red] w-80 h-56 px-6 py-6">iPod</div>
                         <hr />
                     </li>
                     <li>
@@ -98,9 +97,9 @@ const Education = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </div>
-                    
+
                     </li>
-                  
+
                 </ul>
             </div>
         </div>

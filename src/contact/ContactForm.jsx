@@ -44,15 +44,16 @@ const ContactForm = () => {
     return (
         <div className="bg-[#212428] max-w-7xl m-auto pb-20 ">
 
-            <div className="space-y-5">
+            <div className="space-y-2 md:space-y-5">
                 <p className="pr-5 text-center montserrat-uniquifier text-[#eb3535] text-xs tracking-wide uppercase">
                     Contact
                 </p>
-                <p className="text-center text-5xl text-[#eae6e6] poppins-bold tracking-wider">Contact With Me</p>
+                <p className="text-center text-2xl md:text-5xl text-[#eae6e6] poppins-bold tracking-wider">Contact With Me</p>
             </div>
 
-            <div className='grid grid-cols-7 gap-14 items-center mt-24'>
-                <div className="col-span-3 justify-center rounded-md btn-class mx-5 px-11 py-12 group">
+            <div className=' md:grid grid-cols-7 gap-14 items-center mt-16 md:-24'>
+
+                <div className="col-span-3 justify-center rounded-md btn-class mx-7 my-7 px-9 py-8 group">
                     <div>
                         <div className="group relative overflow-hidden rounded-lg">
                             <img
@@ -61,12 +62,12 @@ const ContactForm = () => {
                                 alt="product image"
                             />
                         </div>
-                        <div className="pt-8">
+                        <div className="pt-5 md:pt-8">
                             <div className='space-y-2'>
                                 <h5 className="text-2xl -tracking-wider text-slate-100 poppins-bold">Riad Jowarder</h5>
-                                <h5 className="text-lg tracking-tight text-slate-400">Front-End Developer</h5>
+                                <h5 className="text-base md:text-lg tracking-tight text-slate-400">Front-End Developer</h5>
                             </div>
-                            <p className='text-gray-500 py-4'>I am available for freelance work. Connect with me via and call in to my account</p>
+                            <p className='text-xs text-gray-500 py-2 md:py-4'>I am available for freelance work. Connect with me via and call in to my account</p>
                             <div className='py-3 space-y-2'>
                                 <div className='flex items-center gap-2'>
                                     <FiPhoneCall size={20} color='red'></FiPhoneCall>
@@ -78,8 +79,8 @@ const ContactForm = () => {
                                 </div>
                             </div>
                             <div className='pt-2'>
-                                <p className="text-[#cbc5c5] font-bold text-sm">FIND WITH ME</p>
-                                <div className="flex gap-4 pt-4">
+                                <p className="text-[#cbc5c5] font-bold text-xs md:text-sm">FIND WITH ME</p>
+                                <div className="flex gap-4 pt-2 md:pt-4">
                                     <AiFillFacebook color="white" size={40} className="btn-class cursor-pointer p-3" />
                                     <IoLogoYoutube color="white" size={40} className="btn-class cursor-pointer p-3" />
                                     <FaLinkedin color="white" size={40} className="btn-class cursor-pointer p-3" />
@@ -89,12 +90,12 @@ const ContactForm = () => {
                     </div>
                 </div>
 
-                <div className='col-span-4 rounded-md btn-class px-10 py-16'>
+                <div className='col-span-4 rounded-md btn-class mx-7 px-9 py-10  mt-16'>
                     <form className="">
-                        <div className='flex items-center justify-between'>
+                        <div className=' md:flex items-center justify-between'>
                             <div>
-                                <label className='text-[#c8c3c3] text-sm uppercase'>Your Name</label>
-                                <div className="py-3">
+                                <label className='text-[#c8c3c3] text-xs md:text-sm uppercase'>Your Name</label>
+                                <div className="py-2 md:py-3">
                                     <input
                                         required
                                         onFocus={() => setFocusField('name')}
@@ -108,7 +109,7 @@ const ContactForm = () => {
                                 </div>
                             </div>
                             <div>
-                                <label className='text-[#c8c3c3] text-sm uppercase'>Phone Number</label>
+                                <label className='text-[#c8c3c3] text-xs md:text-sm uppercase'>Phone Number</label>
                                 <div className="py-3">
                                     <input
                                         required
@@ -124,9 +125,9 @@ const ContactForm = () => {
                             </div>
                         </div>
 
-                        <div className='flex items-center justify-between pt-4'>
+                        <div className='md:flex items-center justify-between pt-4'>
                             <div>
-                                <label className='text-[#c8c3c3] text-sm uppercase'>Email</label>
+                                <label className='text-[#c8c3c3] text-xs md:text-sm uppercase'>Email</label>
                                 <div className="py-3">
                                     <input
                                         required
@@ -141,7 +142,7 @@ const ContactForm = () => {
                                 </div>
                             </div>
                             <div>
-                                <label className='text-[#c8c3c3] text-sm uppercase'>Subject</label>
+                                <label className='text-[#c8c3c3] text-xs md:text-sm uppercase'>Subject</label>
                                 <div className="py-3">
                                     <input
                                         required
@@ -158,7 +159,7 @@ const ContactForm = () => {
                         </div>
 
                         <div className='pt-5'>
-                            <label className="block mb-3 text-sm font-medium text-gray-900">
+                            <label className="block mb-3 text-xs md:text-sm font-medium text-gray-900">
                                 <span className='text-[#c8c3c3] uppercase'>Your Message</span>
                             </label>
                             <textarea

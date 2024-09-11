@@ -5,7 +5,7 @@ const Navbar1 = () => {
 
     return (
         <nav className="  sticky  w-full top-0 start-0 z-50">
-            <div className="navbar lg:px-20   btn-class  bg-[#212428] ">
+            <div className="navbar lg:px-20  btn-class  bg-[#212428] ">
                 <div className="navbar-start ">
 
                     <div className="dropdown ">
@@ -26,15 +26,15 @@ const Navbar1 = () => {
                         </div>
                     </div>
 
-                    {/* backgroundImage: "linear-gradient(180deg, #F948B2 0%, #8758F1 100%)", */}
+
                     <div className="">
                         <p
                             style={{ textTransform: "uppercase", color: "transparent", WebkitBackgroundClip: "text" }}
-                            className="bg-gradient-to-r from-[#cf1138] to-[#830a22]  text-white text-xs  lg:text-2xl pl-2 font-extrabold">Riad Jowarder </p>
+                            className="bg-gradient-to-r from-[#cf1138] to-[#830a22]  text-white text-[14px] md:text-lg lg:text-xl pl-2 font-extrabold  md:w-60 w-40 ">Riad Jowarder </p>
                     </div>
                 </div>
-                <div className="navbar-end hidden gap-20  lg:flex ">
-                    <ul className="menu menu-horizontal px-1 text-[#dcd3d3] text-xs">
+                <div className=" lg:navbar-center  ml-7 hidden gap-10 items-center lg:flex ">
+                    <ul className="menu menu-horizontal px-1 text-[#dcd3d3] text-xs ">
                         <li className="hover:text-red-600 font-serif"><a href='home'>HOME</a></li>
                         <li className="hover:text-red-600 font-serif"><a>EXPERIENCE</a></li>
                         <li className="hover:text-red-600 font-serif"><a>SKILLS</a></li>
@@ -42,7 +42,8 @@ const Navbar1 = () => {
                         <li className="hover:text-red-600 font-serif"> <a href='#ex'>CONTACT</a></li>
                     </ul>
                     <button
-                        className="text-[#cf1138] bg-[#1f2226] focus:outline-none shadow-md rounded-md text-sm px-6 py-2  text-center me-2 font-medium  tracking-wide btn-class ">HIRE ME</button>
+                        className="text-[#cf1138] bg-[#1f2226] focus:outline-none shadow-md rounded-md text-sm px-6 py-2  text-center me-2 font-medium  tracking-wide btn-class ">HIRE ME
+                    </button>
                 </div>
             </div>
         </nav>

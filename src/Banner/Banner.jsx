@@ -15,12 +15,14 @@ import Typewriter from 'typewriter-effect';
 const Banner = () => {
     return (
 
-        <div className=" flex gap-8 max-w-7xl m-auto mt-20 pb-10">
-            <div className="flex-1  ">
+        <div className="pb-10 max-w-7xl m-auto mt-10 md:mt-16 lg:mt-14 lg:grid lg:grid-cols-2 ">
 
-                <div className="mx-2 my-2 px-10 py-10  rounded-md btn-class ">
-                    <p className="font-bold text-5xl  text-white">Hi, I’m <span className="text-red-700">Riad</span></p>
-                    <p className="font-bold text-4xl  text-white pt-4 ">
+            <div className=" ">
+                <div className="mx-5 px-6 py-6
+                 md:mx-10 md:my-2 md:px-10 md:py-10
+                 rounded-md btn-class ">
+                    <p className="font-bold text-2xl md:text-5xl lg:text-3xl text-white">Hi, I’m <span className="text-red-700">Riad</span></p>
+                    <p className="font-bold text-xl md:text-4xl lg:text-3xl text-white pt-1 md:pt-4 ">
                         <Typewriter
                             options={{
                                 strings: ['A Front-End Developer'],
@@ -28,67 +30,72 @@ const Banner = () => {
                                 loop: true,
                             }}
                         />
-
                     </p>
 
-                    <p className=" pt-6 text-sm   text-gray-400">As a web developer experienced in,JavaScript, my goal is to build captivating websites and applications.
+                    <p className="py-4 md:pt-6 lg:pt-5 text-[10px] md:text-sm lg:text-[10px]  text-gray-400">As a web developer experienced in,JavaScript, my goal is to build captivating websites and applications.
                         I am eager to learn and collaborate with a talented team to create user-friendly web solutions.
                         By writing clean code and problem-solving effectively.
                     </p>
 
-                    <div className="pt-10 flex gap-36 items-center">
-                        <div>
-                            <p className="text-[#cbc5c5] font-bold text-sm">FIND WITH ME</p>
-                            <div className="flex gap-4 pt-2 ">
-                                <AiFillFacebook color="white" size={40} className="btn-class cursor-pointer p-3"></AiFillFacebook>
-                                <IoLogoYoutube color="white" size={40} className="btn-class cursor-pointer p-3"></IoLogoYoutube>
-                                <FaLinkedin color="white" size={40} className="btn-class cursor-pointer p-3"></FaLinkedin>
+                    <div className="pt-2 md:pt-10 lg:pt-2 flex md:gap-36 lg:gap-0 items-center justify-between">
+                        <div className="">
+                            <p className="text-[#cbc5c5] font-bold text-xs md:text-sm">FIND WITH ME</p>
+                            <div className="flex items-center gap-1 md:gap-4 lg:gap-3 pt-2 ">
+                                <AiFillFacebook color="white" size={40} className="btn-class rounded-sm cursor-pointer p-3"></AiFillFacebook>
+                                <IoLogoYoutube color="white" size={40} className="btn-class rounded-sm cursor-pointer p-3"></IoLogoYoutube>
+                                <FaLinkedin color="white" size={40} className="btn-class rounded-sm cursor-pointer p-3"></FaLinkedin>
                             </div>
                         </div>
 
                         <div>
-                            <p className="text-[#cbc3c3] font-bold text-sm">BEST SKILL ON</p>
-                            <div className="flex gap-2 pt-2">
-                                <TiHtml5 color="#E34F26" size={40} className="btn-class cursor-pointer p-3"></TiHtml5>
-                                <IoLogoCss3 color="#264de4" size={40} className="btn-class cursor-pointer p-3"></IoLogoCss3>
-                                <TbBrandJavascript color="#f7df1e" size={40} className="btn-class cursor-pointer p-3"></TbBrandJavascript>
+                            <p className="text-[#cbc3c3] font-bold text-xs md:text-sm">BEST SKILL ON</p>
+                            <div className="flex items-center gap-1 md:gap-4 lg:gap-3 pt-2 ">
+                                <TiHtml5 color="#E34F26" size={40} className="btn-class rounded-sm cursor-pointer p-3"></TiHtml5>
+                                <IoLogoCss3 color="#264de4" size={40} className="btn-class rounded-sm cursor-pointer p-3"></IoLogoCss3>
+                                <TbBrandJavascript color="#f7df1e" size={40} className="btn-class rounded-sm cursor-pointer p-3"></TbBrandJavascript>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-
-                <div className="pt-4 mx-2 my-2 px-10 py-10  mt-11 rounded-md btn-class">
-                    <div className="pt-5">
+                <div className="mt-7 mx-5 px-6 py-6
+                 md:pt-4  md:mx-10 md:my-2 md:px-10 md:py-10  md:mt-11 
+                 lg:mt-10 
+                 xl:mt-12
+                  rounded-md btn-class">
+                    <div className=" md:pt-5">
                         <p className="text-[#bab4b4] font-bold text-sm">Download my curriculum vitae:</p>
-                        <div className="flex gap-10 pt-6 ">
 
+                        <div className="flex justify-between md:gap-10 lg:gap-5 pt-6 ">
                             <a
                                 href='../../public/Resume_3_2.pdf'
                                 download
-                                className="flex items-center justify-center px-6 py-4  btn-class  text-white font-medium rounded-md transition duration-300"
+                                className="flex items-center justify-center px-4 py-4 md:px-6 md:py-4 lg:px-5   btn-class  text-white font-medium rounded-md transition duration-300"
                             >
                                 <HiArrowDownTray className="mr-2" />
-                                <span className="text-sm text-[#cf1138] tracking-[1px]">DOWNLOAD RESUME</span>
+                                <span className="text-[8px] md:text-sm lg:text-[9px] text-[#cf1138] tracking-[1px]">DOWNLOAD RESUME</span>
                             </a>
 
                             <button
-                                className="flex items-center justify-center px-6 py-4  btn-class  text-white font-medium rounded-md transition duration-300"
+                                className="flex items-center justify-center px-4 py-4 md:px-7 md:py-4 lg:px-7  btn-class  text-white font-medium rounded-md transition duration-300"
                             >
-
-                                <span className="text-sm text-[#cf1138] tracking-[1px]"> CONTACT  WITH  ME</span>
+                                <span className="text-[8px] md:text-sm lg:text-[9px] text-[#cf1138] tracking-[1px]"> CONTACT  WITH  ME</span>
                             </button>
                         </div>
+
                     </div>
                 </div>
             </div>
 
-            <div className="flex-1 mx-2 my-2 rounded-md  btn-class   ">
-                <div className="relative">
-                    <Lottie loop={true} className=" ml-6  w-[600px]  " animationData={animation}></Lottie>
-                    <img className=" rounded-full absolute top-[17%] right-[26%]   w-80" src={img} alt="" />
-                    {/* <img className=" rounded-full h-[300px] w-[260px] md:h-[400px] md:w-[350px] top-[570px] right-24 absolute md:top-52 md:right-[190px]" src={img} alt="" /> */}
+            <div className="mt-14 mx-5 my-2
+             md:mt-8 md:mx-10 md:my-2 
+             lg:my-[8px] 
+             rounded-md btn-class  flex items-center justify-center">
 
+                <div className="w-full flex justify-center items-center relative ">
+                    <Lottie loop={true} className="w-full  m-auto" animationData={animation}></Lottie>
+                    <img className=" rounded-full w-48 m-auto md:w-[350px] lg:w-[240px] xl:w-[300px] absolute top-1/2 transform -translate-y-1/2" src={img} alt="" />
                 </div>
             </div>
 
