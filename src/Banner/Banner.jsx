@@ -2,14 +2,13 @@ import img from "../assets/074615c6-b12d-4e01-9c94-a89f9b9a172c-removebg-preview
 import { AiFillFacebook } from "react-icons/ai";
 import { HiArrowDownTray } from "react-icons/hi2";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
 import { TiHtml5 } from "react-icons/ti";
 import { IoLogoCss3 } from "react-icons/io5";
 import { TbBrandJavascript } from "react-icons/tb";
 import animation from "../../public/animation.json"
 import Lottie from "lottie-react";
 import Typewriter from 'typewriter-effect';
-
+import { FaInstagramSquare } from "react-icons/fa";
 
 
 const Banner = () => {
@@ -41,9 +40,15 @@ const Banner = () => {
                         <div className="">
                             <p className="text-[#cbc5c5] font-bold text-xs md:text-sm">FIND WITH ME</p>
                             <div className="flex items-center gap-1 md:gap-4 lg:gap-3 pt-2 ">
-                                <AiFillFacebook color="white" size={40} className="btn-class rounded-sm cursor-pointer p-3"></AiFillFacebook>
-                                <IoLogoYoutube color="white" size={40} className="btn-class rounded-sm cursor-pointer p-3"></IoLogoYoutube>
-                                <FaLinkedin color="white" size={40} className="btn-class rounded-sm cursor-pointer p-3"></FaLinkedin>
+                                <a href="https://www.facebook.com/profile.php?id=100079115744038&mibextid=ZbWKwL">
+                                    <AiFillFacebook color="white" size={40} className="btn-class rounded-sm cursor-pointer p-3"></AiFillFacebook>
+                                </a>
+                                <a href="https://www.instagram.com/rjriad6?igsh=eWhscmt5Z296cmQy">
+                                    <FaInstagramSquare color="white" size={40} className="btn-class rounded-sm cursor-pointer p-3"></FaInstagramSquare>
+                                </a>
+                              <a href="https://www.linkedin.com/in/riad-jowarder-55a80630a/">
+                              <FaLinkedin color="white" size={40} className="btn-class rounded-sm cursor-pointer p-3"></FaLinkedin>
+                              </a>
                             </div>
                         </div>
 
@@ -77,11 +82,13 @@ const Banner = () => {
                                 <span className="text-[8px] md:text-sm lg:text-[9px] text-[#cf1138] tracking-[1px]">DOWNLOAD RESUME</span>
                             </a>
 
-                            <button
-                                className="flex items-center justify-center px-4 py-4 md:px-7 md:py-4 lg:px-7  btn-class  text-white font-medium rounded-md transition duration-300"
-                            >
-                                <span className="text-[8px] md:text-sm lg:text-[9px] text-[#cf1138] tracking-[1px]"> CONTACT  WITH  ME</span>
-                            </button>
+                            <a href="#contact">
+                                <button
+                                    className="flex items-center justify-center px-4 py-4 md:px-7 md:py-4 lg:px-7  btn-class  text-white font-medium rounded-md transition duration-300"
+                                >
+                                    <span className="text-[8px] md:text-sm lg:text-[9px] text-[#cf1138] tracking-[1px]"> CONTACT  WITH  ME</span>
+                                </button>
+                            </a>
                         </div>
 
                     </div>
@@ -95,7 +102,7 @@ const Banner = () => {
 
                 <div className="w-full flex justify-center items-center relative ">
                     <Lottie loop={true} className="w-full  m-auto" animationData={animation}></Lottie>
-                    <img className=" rounded-full w-48 m-auto md:w-[350px] lg:w-[240px] xl:w-[300px] absolute top-1/2 transform -translate-y-1/2" src={img} alt="" />
+                    <img className=" rounded-full w-52 m-auto md:w-[350px] lg:w-[240px] xl:w-[300px] absolute top-1/2 transform -translate-y-1/2" src={img} alt="" />
                 </div>
             </div>
 

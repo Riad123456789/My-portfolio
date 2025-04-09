@@ -7,10 +7,18 @@ import Lottie from "lottie-react";
 import img from "../../src/assets/Tailwind-CSS1-900x0.png"
 import img1 from "../../src/assets/erkxwhl1gd48xfhe2yld.webp"
 import img2 from "../../src/assets/https___v4.material-ui.com_static_logo.webp"
+import img3 from "../../src/assets/image 1.svg"
+import img4 from "../../src/assets/image_1-removebg-preview.png"
+import img5 from "../../src/assets/image.svg"
+import img6 from "../../src/assets/github-6980894_960_720.webp"
+import img7 from "../../src/assets/png-transparent-bootstrap-plain-wordmark-logo-icon-removebg-preview.png"
+import img8 from "../../src/assets/image (2).svg"
+import img9 from "../../src/assets/image (3).svg"
+import img10 from "../../src/assets/express-js.png"
 
 const Services = () => {
     return (
-        <div className="my-12 xl:mt-28 max-w-7xl mx-auto">
+        <div id="experience" className="my-12 xl:mt-28 max-w-7xl mx-auto ">
 
             <div className=" space-y-2">
                 <p className="text-[7px] text-center montserrat-uniquifier text-[#f4395e] md:text-xs tracking-wide uppercase">
@@ -56,10 +64,10 @@ const Services = () => {
                         <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
                             <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img1} alt="" />
                         </div>
-
                         <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
-                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img2} alt="" />
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img10} alt="" />
                         </div>
+
 
                     </div>
 
@@ -73,36 +81,36 @@ const Services = () => {
                     <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-5 md:gap-7 pt-4">
 
                         <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
-                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={html}></Lottie>
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img8} alt="" />
                         </div>
 
                         <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
-                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={css}></Lottie>
-                        </div>
-
-                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
-                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={java}></Lottie>
-                        </div>
-
-                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
-                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img} alt="" />
-                        </div>
-
-                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
-                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={react}></Lottie>
-                        </div>
-
-                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
-                            <Lottie className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" animationData={firebase}></Lottie>
-                        </div>
-
-                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
-                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img1} alt="" />
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img3} alt="" />
                         </div>
 
                         <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
                             <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img2} alt="" />
                         </div>
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img5} alt="" />
+                        </div>
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img4} alt="" />
+                        </div>
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img6} alt="" />
+                        </div>
+
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img7} alt="" />
+                        </div>
+                        <div className="w-16 h-14 md:w-24 md:h-20 lg:w-28 lg:h-24 mx-auto lg:rounded-md md:rounded-sm btn-class">
+                            <img className="pt-2 w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 m-auto" src={img9} alt="" />
+                        </div>
+
+
+
+
 
                     </div>
                 </div>
